@@ -26,42 +26,46 @@ header{
 .header-item {
     font-size: 20px;
     font-weight: 500;
-    margin: 20px;
+    margin: 10px;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
+    right: 25px;
+    position: relative;
+    left: 73%;
 }
 
 #about{
 	background-image: url("../images/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
-	color: #637F7C;
+	height: 115vh;
+	color: #466C68;
+	margin-top: -75px;
 }
 
-
-.hr{
-	margin-top: 30%;
+#about a{
+	color: #466C68;
+	text-decoration: none;
 }
 
 .home{
 	font-size: 20px;
 	font-weight: 500;
-	margin: 20px;
+	margin: 10px;
 	color: #fff;
 	position: absolute;
-	right: 10px;
+	left: 20px;
 }
 
 .container{
 	width: 50%;
 	margin: auto;
 	text-align: center;
-	padding-top: 8%;
+	padding-top: 12%;
 }
 
 .title{
-	color: #A96E74;
+	color: #875876;
 	font-size: 55px;
 	text-align: center;
 }
@@ -80,7 +84,7 @@ header{
 }
 
 .contacts{
-	margin-top: 30px;
+	margin-top: -6px;
 }
 
 .contacts a {
@@ -100,7 +104,7 @@ header{
 	background-image: linear-gradient(to top, #a07d93, #a7879b, #ad90a3, #b49aab, #bba4b3);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    height: 170vh;
 }
 
 .container1{
